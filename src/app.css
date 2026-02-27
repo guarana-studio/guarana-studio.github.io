@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import "basecoat-css";
+
+* {
+  --font-sans: "Geist Variable", sans-serif;
+}
+
+body {
+  @apply bg-orange-50;
+}

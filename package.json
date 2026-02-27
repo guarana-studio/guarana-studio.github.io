@@ -1,0 +1,29 @@
+{
+  "name": "guarana-studio",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check",
+    "fmt": "oxfmt"
+  },
+  "dependencies": {
+    "@fontsource/geist": "^5.2.8"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^6.2.1",
+    "@tailwindcss/vite": "^4.2.1",
+    "@tsconfig/svelte": "^5.0.8",
+    "@types/node": "^24.10.1",
+    "basecoat-css": "^0.3.11",
+    "oxfmt": "^0.35.0",
+    "svelte": "^5.45.2",
+    "svelte-check": "^4.3.4",
+    "tailwindcss": "^4.2.1",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1"
+  }
+}
