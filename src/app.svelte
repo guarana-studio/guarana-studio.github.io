@@ -3,9 +3,9 @@
 import { CONTACT_URL, GITHUB_URL } from "$lib/const";
 </script>
 
-<main class="container mx-auto max-w-240 flex flex-col my-8">
+<main class="container mx-auto max-w-256 flex flex-col my-8 p-4">
   <TopBar />
-  <div class="grid grid-cols-6 grid-rows-6 gap-4 w-full mt-16 *:border *:border-orange-200 *:p-4 *:rounded-xl *:bg-white *:shadow *:shadow-orange-700/25 *:flex *:flex-col *:items-center *:gap-4">
+  <div class="flex flex-col md:grid grid-cols-6 grid-rows-6 gap-4 w-full mt-16 *:border *:border-orange-200 *:p-4 *:rounded-xl *:bg-white *:shadow *:shadow-orange-700/25 *:flex *:flex-col *:items-center *:gap-4">
       <div class="col-span-2 row-span-2 !items-end">
         <p class="text-foreground/75 mt-auto">Guarana Studio is an experienced Svelte and web development team. Need help with custom projects?</p>
         <a href={CONTACT_URL} class="btn-link font-semibold text-orange-700">Contact us</a>
